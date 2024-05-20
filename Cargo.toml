@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "bin/rbtc/",
+    "crates/wire"
+]
+resolver = "2"
+default-members = ["bin/rbtc"]
