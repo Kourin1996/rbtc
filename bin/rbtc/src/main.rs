@@ -1,5 +1,6 @@
-use rbtc_wire::hello;
+use rbtc_wire::msg::version::MsgVersion;
 
 fn main() {
-    hello();
+    let msg = MsgVersion::new();
+    println!("msg version: {:?}", msg);
 }
